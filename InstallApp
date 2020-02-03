@@ -4,5 +4,7 @@
   1.3. Add this line in the end of file
     1.3.1. export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
     1.3.2. export ANDROID_HOME=/usr/local/android-studio
+    1.3.3. export ANDROID_SDK_ROOT=/usr/local/Android/Sdk
+    1.3.4. export PATH=${PATH}:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools 
     
 2. 
