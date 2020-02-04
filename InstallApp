@@ -11,3 +11,6 @@ useful link: https://www.digitalocean.com/community/tutorials/how-to-install-jav
 2. Switch between java versions in ubuntu
   2.1. sudo update-alternatives --config java
   2.2. Select java version
+
+3. Uninstall java
+  3.1. sudo apt-get purge openjdk-11* (depending witch version)
