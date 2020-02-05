@@ -13,12 +13,12 @@ useful link: https://www.digitalocean.com/community/tutorials/how-to-install-jav
     1. `sudo update-alternatives --config java`
     1. `Select java version`
 
-3. Uninstall java
-  3.1. sudo apt-get purge openjdk-11* (depending witch version)
+1. Uninstall java
+     1. `sudo apt-get purge openjdk-11*` (depending witch version)
 
-4. Create Android Studio shortcut in desktop in ubuntu
-  4.1. Open Gedit
-  4.2. Pase the folowing code:
+1. Create Android Studio shortcut in desktop in ubuntu
+   1. Open Gedit
+   1. Pase the folowing code:
       ```
       [Desktop Entry]
       Version=1.0
@@ -28,5 +28,5 @@ useful link: https://www.digitalocean.com/community/tutorials/how-to-install-jav
       Exec=sh /usr/local/android-studio/bin/studio.sh
       Name=Android Studio
       ```
-  4.3. Now, save this file as AndroidStudio.desktop, to your desktop.
-  4.4. cd ~/Desktop && chmod a+x AndroidStudio.desktop
+   1. Now, save this file as AndroidStudio.desktop, to your desktop.
+   1. `cd ~/Desktop && chmod a+x AndroidStudio.desktop`
