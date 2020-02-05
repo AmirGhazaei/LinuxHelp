@@ -19,6 +19,7 @@ useful link: https://www.digitalocean.com/community/tutorials/how-to-install-jav
 4. Create Android Studio shortcut in desktop in ubuntu
   4.1. Open Gedit
   4.2. Pase the folowing code:
+      ```
       [Desktop Entry]
       Version=1.0
       Type=Application
@@ -26,5 +27,6 @@ useful link: https://www.digitalocean.com/community/tutorials/how-to-install-jav
       Icon=/usr/local/android-studio/bin/studio.png
       Exec=sh /usr/local/android-studio/bin/studio.sh
       Name=Android Studio
+      ```
   4.3. Now, save this file as AndroidStudio.desktop, to your desktop.
   4.4. cd ~/Desktop && chmod a+x AndroidStudio.desktop
