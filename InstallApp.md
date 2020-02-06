@@ -29,3 +29,8 @@
       ```
    1. Now, save this file as AndroidStudio.desktop, to your desktop.
    1. `cd ~/Desktop && chmod a+x AndroidStudio.desktop`
+
+1. Install LAMP-Server
+   1. `sudo apt install tasksel`
+   1. `sudo tasksel install lamp-server`
+   1. `sudo mysql_secure_installation`
