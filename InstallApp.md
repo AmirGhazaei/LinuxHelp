@@ -41,5 +41,11 @@
       `Include /etc/phpmyadmin/apache.conf`
    1. `/etc/init.d/apache2 restart`
 
+1. Problem login to mysql in phpmyadmin: (ERROR 1698 (28000): Access denied for user 'root'@'localhost') ([Link](https://stackoverflow.com/questions/39281594/error-1698-28000-access-denied-for-user-rootlocalhost))
+   1. `sudo mysql -u root -p`
+   1. `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'new-password';`
+   1. `sudo service mysql stop`
+   1. `sudo service mysql start`
+
 
    
