@@ -30,7 +30,8 @@
    1. Now, save this file as AndroidStudio.desktop, to your desktop.
    1. `cd ~/Desktop && chmod a+x AndroidStudio.desktop`
 
-1. Install LAMP-Server
+1. Install LAMP-Server ([Link](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04))
    1. `sudo apt install tasksel`
    1. `sudo tasksel install lamp-server`
    1. `sudo mysql_secure_installation`
+   1. `sudo apt install php libapache2-mod-php php-mysql`
