@@ -47,5 +47,9 @@
    1. `sudo service mysql stop`
    1. `sudo service mysql start`
 
+1. Install PostgreSQL
+   1. `sudo apt update`
+   1. `sudo apt install postgresql postgresql-contrib`
+   
 
    
